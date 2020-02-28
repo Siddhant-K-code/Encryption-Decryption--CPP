@@ -17,12 +17,12 @@ int main()
       case 1:
         for(i=0; (i<100 && a[i]!= '\0'); i++)
       a[i]+=2;
-      cout<<"encrypted text : "<< a <<end1;
+      cout<<"encrypted text : "<< a <<endl;
       break; 
        case 2:
         for( i=0; (i<100 && a[i]!= '\0'); i++)
       a[i]-=2;
-       cout<<" decrypted text : " << a <<end1;
+       cout<<" decrypted text : " << a <<endl;
        break;
         default : 
          cout<< "invalid input! choose 1 or 2 only.";
